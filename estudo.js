@@ -1,6 +1,6 @@
 
-        function mostrarCantada() {
-            const cantadas = {
+        functionmostrarCantada() {
+            constcantadas = {
                 "Romântica": [
                     { text: "Você é a razão pela qual meu coração bate mais rápido!", img: "274295614b1f1971b08ab25420222b6a.jpg" }
                 ],
@@ -13,15 +13,15 @@
                 ]
             };
 
-            const categoria = document.getElementById("categoria").value;
-            const index = Math.floor(Math.random() * cantadas[categoria].length);
-            const cantadaElemento = document.getElementById('cantada');
-            const imagemElemento = document.getElementById('imagem');
+            constcategoria = document.getElementById("categoria").value;
+            constindex = Math.floor(Math.random() * cantadas[categoria].length);
+            constcantada Elemento = document.getElementById('cantada');
+            constimagem Elemento = document.getElementById('imagem');
             
-            cantadaElemento.innerText = cantadas[categoria][index].text;
-            cantadaElemento.classList.remove('hidden');
+            cantada Elemento.innerText = cantadas[categoria][index].text;
+            cantada Elemento.classList.remove('hidden');
             
-            imagemElemento.src = cantadas[categoria][index].img;
-            imagemElemento.classList.remove('hidden');
+            imagem Elemento.src = cantadas[categoria][index].img;
+            imagem Elemento.classList.remove('hidden');
         }
     
