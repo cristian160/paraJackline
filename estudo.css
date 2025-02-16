@@ -1,8 +1,7 @@
-
-@keyframes gradientAnimation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+ gradientAnimation {
+    0 % { background-position: 0% 50%; }
+    50 % { background-position: 100% 50%; }
+    100 % { background-position: 0% 50%; }
 }
 
 body {
@@ -10,34 +9,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(-45deg, #9143f7, #5b29ff, #02a3fa, #0232f4);
-    background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
+    height: 100 vh;
+    background: linear-gradient (-45 deg, #9143f7, #5b29ff, #02a3fa, #0232f4);
+    background-size: 400 % 400 %;
+    animation: gradientAnimation 10 s ease infinite;
     margin: 0;
 }
 .container {
     text-align: center;
     background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    transform: scale(1);
-    transition: transform 0.3s;
-    width: 300px;
+    padding: 20 px;
+    border-radius: 10 px;
+    box-shadow: 0 4 px 10 px rgba (0, 0, 0, 0.2);
+    transform: scale (1);
+    transition: transform 0.3 s;
+    width: 300 px;
 }
 .container:hover {
-    transform: scale(1.05);
+    transform: scale (1.05);
 }
 button {
     background-color: #ff4b5c;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 10 px 20 px;
+    font-size: 16 px;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background 0.3s;
+    border-radius: 5 px;
+    transition: background 0.3 s;
 }
 button:hover {
     background-color: #ff1c3b;
@@ -46,13 +45,13 @@ button:hover {
     display: none;
 }
 img {
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    border-radius: 50%;
+    width: 100 px;
+    height: 100 px;
+    margin-top: 10 px;
+    border-radius: 50 %;
 }
 select {
-    margin-top: 10px;
-    padding: 5px;
-    font-size: 14px;
+    margin-top: 10 px;
+    padding: 5 px;
+    font-size: 14 px;
 }
